@@ -1,0 +1,7 @@
+@media (min-width: 760px) {
+    main section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
