@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Salarios</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora <br> Matemáticas</h1>
+        <div>
+            <a href="retoDescuento.html" target="_blank" rel="noopener noreferrer">Descuento</a>
+        <a href="retoEstadística.html" target="_blank" rel="noopener noreferrer">Estadística</a>
+        <a href="retoSalarios.html" target="_blank" rel="noopener noreferrer">Salarios</a>
+        <a href="retoFormasGeometricas.html" target="_blank" rel="noopener noreferrer">Formas Geométricas</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>Escribe el monto a pagar</p>
+                <input type="text"  id="inputMonto">
+               <p>Escribe los intereses a pagar</p>
+                <input type="text" id="inputIntereses">
+               <p>Escribe las cantidades de cuotas</p>
+                <input type="text" id="inputCuotas">
+                <button type="button" onclick="calcularPagoCuotas()">Calcular interés simple</button>
+                <button type="button" onclick="calcularPagoCuotas()">Calcular interés compuesto</button>
+                <p id="resultadoPagar"></p>
+            </div>
+        </section>
+        <script src="js/reto.js"></script>
+    </main>
+</body>
+</html>

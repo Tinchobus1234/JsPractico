@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formas Geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora <br> Matemáticas</h1>
+        <div>
+            <a href="retoDescuento.html" target="_blank" rel="noopener noreferrer">Descuento</a>
+        <a href="retoEstadística.html" target="_blank" rel="noopener noreferrer">Estadística</a>
+        <a href="retoSalarios.html" target="_blank" rel="noopener noreferrer">Salarios</a>
+        <a href="retoFormasGeometricas.html" target="_blank" rel="noopener noreferrer">Geometría</a>
+        </div>
+    </header>
+    <main>
+        <section class="FormasGeometricas-container">
+            <div>
+                <figure class="img-geometricforms"> 
+                    <img src="img/circulo.png" alt="" srcset="">
+                </figure>    
+                <h2>Calcula el área y perímetro de un cuadrado</h2>
+                <p>Escribe el radio:</p>    
+                <input id="inputCirculo" type="number">
+                <button type="button"onclick="calcularPerimetroCirculo()">
+              Calcular el perímetro
+                </button>
+                <button type="button" class="js-main--buton" onclick="calcularAreaCirculo()">Calcular el area</button>
+                <div>
+                    <p id="resultadoCirculo"></p>
+                </div>  
+            </div>
+            <div>
+                 <figure class="img-geometricforms">
+                    <img src="img/Trianguloisosceles.png" alt="" srcset="">
+                </figure> 
+                
+                <h2>Calcula la altura de un tríangulo isósceles</h2>
+                      <p>Escribe cuanto mide el lado1:</p>  
+                    <input id="lado1TrianguloIsosceles" type="number">
+                     <p>Escribe cuanto mide el lado2:</p>   
+                    <input id="lado2TrianguloIsosceles" type="number">
+                      <p>Escribe cuanto mide la base:</p>  
+                    <input id="baseTrianguloIsosceles" type="number">
+                    <button type="button" onclick="calcularAlturaTrianguloIsosceles()">
+                  Calcular la altura
+                    </button>
+                    <button type="button" onclick="calcularAreaTrianguloIsosceles()">Calcular el área</button>
+                    <div>
+                        <p id="resultadoTrianguloIsosceles"></p>
+                    </div>  
+                </div>
+            <div>
+               <figure class="img-geometricforms">
+                    <img src="img/cuadrado.png" alt="" srcset="">
+                </figure>
+                
+                <h2>Calcula el área y perímetro  de un cuadrado</h2>
+                  <p>Escribe cuanto mide cada lado de tu cuadrado:</p>  
+                <input id="inputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+              Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                    <div>
+                        <p id="resultadoCuadrado"></p>
+                    </div>  
+                </div>
+                <div>
+                    <figure class="img-geometricforms">
+                        <img src="img/triangulo.png" alt="" srcset="">
+                    </figure>
+                   
+                    <h2>Calcula el área y  perímetro de un triángulo</h2>
+               <p>Escribe cuanto mide el lado1:</p>    
+                <input id="lado1Triangulo" type="number">
+                <p>Escribe cuanto mide el lado2:</p>    
+                <input id="lado2Triangulo" type="number">
+                  <p>Escribe cuanto mide la base:</p>  
+                <input id="baseTriangulo" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+              Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                <p id="resultadoTriangulo"></p>
+                </div>
+        </section>
+    </main>
+<script src="js/reto.js"></script>
+</body>
+</html>

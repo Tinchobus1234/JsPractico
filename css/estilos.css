@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+    color: bisque;
+}
+h2 {
+    font-size: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    text-align: center;
+    background-color: silver;
+}
+header div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+/*     margin: 0 50px 0 200px;
+ */}
+ main section div p {
+     margin: 16px;
+ }
+ main section div {
+     background-color: skyblue;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+    main section button {
+        margin: 10px;
+        border-color: transparent;
+        border-radius: 20%;
+        background-color: burlywood;
+    }
+.information {
+    width: 80%;
+}
+main section input {
+    border-radius: 20%;
+    border: 3px solid rgb(248, 119, 14);
+}
+.FormasGeometricas-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} 
+.img-geometricforms {
+    background-color: white;
+    width: 150px;
+}
+.FormasGeometricas-container div figure img {
+   width: 100%;
+}
+.FormasGeometricas-container div {
+    text-align: center;
+}

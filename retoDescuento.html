@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Descuento</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora <br> Matemáticas</h1>
+        <div>
+            <a href="retoDescuento.html" target="_blank" rel="noopener noreferrer">Descuento</a>
+        <a href="retoEstadística.html" target="_blank" rel="noopener noreferrer">Estadística</a>
+        <a href="retoSalarios.html" target="_blank" rel="noopener noreferrer">Salarios</a>
+        <a href="retoFormasGeometricas.html" target="_blank" rel="noopener noreferrer">Formas Geométricas</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="descuento">
+                <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+            <p>Escribe el precio de tu producto</p>
+            <input id="InputPrice" type="number" placeholder="Ej: 300">
+       
+                <p>Escribe el descuento de <br> tu producto(Si no hay cupon)</p>
+                    <input type="number" id="InputDescuento" placeholder="Ej: 300">
+                    <button type="button" id="buttonDescuento" onclick="calcularPrecioConDescuento()">Calcular</button>
+                    <p id="ResultPrecioDescuento"></p>
+               <p>Escribe el cupon de descuento</p>
+                    <input id="InputCupones" placeholder="Ej: John_Cena" type="text">
+                    <button type="button" id="buttonCupones" onclick="calcularPrecioCupones()">Calcular</button>
+                    <p id="ResultPrecioCupones"></p>
+        
+            </div>
+        </section>
+    </main>
+    <script src="js/reto.js"></script>
+</body>
+</html>
