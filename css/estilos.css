@@ -1,9 +1,14 @@
 a {
     text-decoration: none;
-    color: bisque;
+    color: #d00000;
+    margin: 10px;
+}
+body {
+    background-color: #8ecae6;
 }
 h2 {
     font-size: 20px;
+    margin: 10px;
 }
 *{
     margin: 0px;
@@ -13,7 +18,8 @@ h2 {
 header {
     width: 100%;
     text-align: center;
-    background-color: silver;
+    background-color: #8ecae6;
+    margin-bottom: 50px;
 }
 header div {
     display: grid;
@@ -24,8 +30,8 @@ header div {
      margin: 16px;
  }
  main section div {
-     background-color: skyblue;
-     width: 100vw;
+     background-color: #8ecae6;
+     width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -34,16 +40,16 @@ header div {
         margin: 10px;
         border-color: transparent;
         border-radius: 20%;
-        background-color: burlywood;
+        background-color: 219ebc;
     }
 .information {
-    width: 80%;
+    width: 50%;
 }
 main section input {
     border-radius: 20%;
-    border: 3px solid rgb(248, 119, 14);
+    border: 3px solid #ffb703;
 }
-.FormasGeometricas-container {
+.main section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 } 
