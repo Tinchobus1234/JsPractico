@@ -66,12 +66,14 @@ function calcularMediaAritmetica(lista) {
     if (esPar(listaOrdenada.length)) {
       const elemento1 = listaOrdenada[mitadLista - 1];
       const elemento2 = listaOrdenada[mitadLista];
-      const promedioElemento1y2 = calcularMediaAritmetica([elemento1, elemento2]);
+      const promedioElemento1y2 = (elemento2 + elemento1) / 2;
       mediana = promedioElemento1y2;
+      
     } else {
       mediana = listaOrdenada[mitadLista];
     }
     mostrarResultadoMediana.innerText = "La mediana es de: " + mediana;
+    
     return mediana;
   }
   //MediaGeométrica
